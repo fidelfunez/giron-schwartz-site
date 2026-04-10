@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Girón & Schwartz
 
-## Getting Started
+**Asesoría audiovisual** para productoras que filman en Guatemala y en la región.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Girón & Schwartz es una firma **boutique** fundada en **2019** en Ciudad de Guatemala. Acompañamos a productoras **regionales, latinoamericanas y europeas** que buscan rodar con equipos locales de confianza, comunicación clara y ejecución impecable en territorio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+No somos un directorio anónimo: trabajamos de forma **cercana y transparente**, con **comunicación horizontal** entre clientes y colaboradores. Cada proyecto lo abordamos con un equipo a la medida, **sin tercerizar** el criterio: nos hacemos cargo de los detalles para que la producción se sienta segura y entendida, desde la preproducción hasta la producción de campo.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Qué hacemos
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ofrecemos **soluciones a medida** para quienes necesitan apoyo operativo en Centroamérica y el sur de México: investigación de locaciones, renta de equipo, permisos (incluidos dron y operador), contratación de personal, **fixers** y productores locales, logística integral, importación y aduanas, permisos de grabación, hospedaje y alimentación, locaciones, transporte y vehículos, seguridad, visas y permisos de trabajo, casting y catering. En conjunto, una red de **contactos sólidos** que permite integrar lo que el proyecto pide con lo que el territorio puede ofrecer.
 
-## Learn More
+## Dónde operamos
 
-To learn more about Next.js, take a look at the following resources:
+**Guatemala**, **Honduras**, **El Salvador** y el **sur de México**, con la misma filosofía: legitimidad, profesionalismo y cercanía.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Cómo nos encuentran
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Muchas veces a través de **recomendaciones**, redes profesionales y comunidades como **Fixers of the World**—porque la confianza en esta industria se gana en el set y en cada entrega.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Girón & Schwartz impulsa una visión de Latinoamérica como corredor de producción donde el talento y la excelencia regional tengan visibilidad internacional, con responsabilidad y respeto por las personas y el entorno.*

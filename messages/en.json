@@ -1,0 +1,165 @@
+{
+  "Metadata": {
+    "title": "Girón & Schwartz | Audiovisual production & fixers in Guatemala",
+    "description": "Audiovisual consultants across Guatemala, Honduras, El Salvador & southern Mexico. Fixers, logistics, gear, permits, casting & more for international productions.",
+    "keywords": "fixer Guatemala, production services Guatemala, film permits Guatemala, equipment rental Guatemala, logistics Guatemala, shooting Guatemala"
+  },
+  "Nav": {
+    "logoTagline": "audiovisual consulting",
+    "services": "Services",
+    "about": "About",
+    "territories": "Territories",
+    "contact": "Contact",
+    "cta": "Request a quote",
+    "langShort": "ES"
+  },
+  "Hero": {
+    "headline": "audiovisual consultants delivering exceptional solutions.",
+    "sub": "We support productions in Guatemala, Honduras, El Salvador & southern Mexico.",
+    "ctaPrimary": "Request a quote",
+    "ctaSecondary": "View services",
+    "imageAlt": "On-location film production"
+  },
+  "About": {
+    "section": "who we are.",
+    "kicker": "01",
+    "body": "We are a close, transparent team: horizontal communication with clients and collaborators is how we tailor solutions with an approachable, reliable, experienced crew. Our consulting is backed by a strong regional contact network.",
+    "manuelaRole": "Co-founder",
+    "manuelaBio": "Scenography & film costume (Universidad del Cine, Buenos Aires). Field producer, assistant director & fixer on advertising, reality & documentary campaigns.",
+    "luisRole": "Co-founder",
+    "luisBio": "Audiovisual creator (Casa Comal Film & TV School). Production on national & international projects; background in public administration & cultural management.",
+    "statFounded": "Founded in 2019",
+    "statClients": "10+ clients",
+    "statProjects": "10+ projects"
+  },
+  "Services": {
+    "title": "services.",
+    "kicker": "02",
+    "items": {
+      "location_research": {
+        "title": "Location research",
+        "desc": "Scouting and options aligned with your script and budget."
+      },
+      "equipment": {
+        "title": "Equipment rental",
+        "desc": "Cameras, lenses, lighting & grip for your shoot."
+      },
+      "drone": {
+        "title": "Drone permits & operator",
+        "desc": "Paperwork and compliant, safe operation."
+      },
+      "staffing": {
+        "title": "Crew hiring",
+        "desc": "Technical and creative crew scaled to your production."
+      },
+      "fixers": {
+        "title": "Local fixers & producers",
+        "desc": "Cultural and operational bridge on the ground."
+      },
+      "logistics": {
+        "title": "End-to-end logistics",
+        "desc": "Coordination of moves, timing and resources."
+      },
+      "customs": {
+        "title": "Import & customs",
+        "desc": "Support for legal entry of gear and materials."
+      },
+      "filming_permits": {
+        "title": "Filming permits",
+        "desc": "Institutional and location clearance."
+      },
+      "lodging": {
+        "title": "Lodging & meals",
+        "desc": "Options for crew and talent while shooting."
+      },
+      "locations": {
+        "title": "Locations",
+        "desc": "Access and coordination for unique sets."
+      },
+      "transport": {
+        "title": "Transport & vehicles",
+        "desc": "Moving gear and people efficiently."
+      },
+      "security": {
+        "title": "Security",
+        "desc": "Protocols and personnel for safe sets."
+      },
+      "visas": {
+        "title": "Visas & work permits",
+        "desc": "Guidance and paperwork for international crew."
+      },
+      "casting": {
+        "title": "Casting",
+        "desc": "Sourcing and selecting on-screen talent."
+      },
+      "catering": {
+        "title": "Catering",
+        "desc": "On-set meal service."
+      }
+    }
+  },
+  "Why": {
+    "title": "why Girón & Schwartz.",
+    "kicker": "03",
+    "items": {
+      "boutique": {
+        "title": "Boutique, not limited",
+        "body": "We support productions of all sizes with the same attention to detail—from emerging projects to large shoots—solving the logistical complexity of regional film work."
+      },
+      "no_outsource": {
+        "title": "No outsourcing",
+        "body": "We personally oversee every detail so the experience matches what was agreed and your production standards."
+      },
+      "horizontal": {
+        "title": "Horizontal communication",
+        "body": "Transparency on timing, costs and decisions. We want clients and collaborators to feel heard and secure."
+      },
+      "network": {
+        "title": "Regional network",
+        "body": "Contacts and operations across Guatemala, Honduras, El Salvador & southern Mexico to connect your team with the territory."
+      }
+    },
+    "framed": "Credibility, closeness & professional execution."
+  },
+  "Territories": {
+    "title": "our territories.",
+    "kicker": "04",
+    "body": "Coverage and coordination across the region for producers who need high-level local support.",
+    "gt": "Guatemala",
+    "hn": "Honduras",
+    "sv": "El Salvador",
+    "mx": "Southern Mexico"
+  },
+  "Clients": {
+    "title": "who we work with.",
+    "kicker": "05",
+    "intro": "Regional, Latin American & European production companies shooting diverse, high-quality content across multiple territories.",
+    "networks": "Fixers of the World · Word of mouth · Professional groups on Facebook & LinkedIn",
+    "placeholder": "Client logos (coming soon)"
+  },
+  "Quote": {
+    "title": "Planning a shoot in Guatemala or the region?",
+    "sub": "Tell us what you need—we usually reply within 24 hours.",
+    "whatsapp": "WhatsApp",
+    "form": {
+      "name": "Full name",
+      "company": "Company / production",
+      "projectType": "Type of project",
+      "territories": "Territory(ies) of interest",
+      "date": "Estimated production date",
+      "description": "Project description",
+      "submit": "Send request",
+      "disclaimer": "By submitting, you agree we may contact you about your project."
+    }
+  },
+  "Footer": {
+    "tagline": "Audiovisual consulting",
+    "rights": "All rights reserved.",
+    "address": "18 ave B 0-03 zona 15, Vista Hermosa II, Edificio Le Chapelet, Guatemala City"
+  },
+  "Social": {
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn"
+  }
+}
