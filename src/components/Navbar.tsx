@@ -9,6 +9,7 @@ import { LanguageToggle } from "./LanguageToggle";
 export function Navbar() {
   const t = useTranslations("Nav");
   const [solid, setSolid] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setSolid(window.scrollY > 24);
@@ -16,6 +17,15 @@ export function Navbar() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const onResize = () => {
+      if (window.innerWidth >= 768) setMobileOpen(false);
+    };
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, [mobileOpen]);
 
   const link =
     "font-[family-name:var(--font-nexa)] text-xs uppercase tracking-[0.2em] text-white/90 transition hover:text-[#E9CB97]";
@@ -67,11 +77,33 @@ export function Navbar() {
             >
               {t("cta")}
             </a>
+            <button
+              type="button"
+              aria-label={mobileOpen ? "Close menu" : "Open menu"}
+              aria-expanded={mobileOpen}
+              aria-controls="mobile-nav-menu"
+              onClick={() => setMobileOpen((v) => !v)}
+              className="inline-flex h-9 w-9 items-center justify-center rounded-sm border border-white/20 text-white transition hover:border-[#E9CB97] hover:text-[#E9CB97]"
+            >
+              <span className="sr-only">{mobileOpen ? "Close menu" : "Open menu"}</span>
+              <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2">
+                {mobileOpen ? (
+                  <path d="M6 6l12 12M18 6L6 18" />
+                ) : (
+                  <path d="M4 7h16M4 12h16M4 17h16" />
+                )}
+              </svg>
+            </button>
           </div>
         </div>
-        <nav className="mt-3 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 border-t border-white/5 pt-3 md:hidden">
-          {links}
-        </nav>
+        {mobileOpen ? (
+          <nav
+            id="mobile-nav-menu"
+            className="mt-3 flex flex-col items-start gap-3 border-t border-white/10 pt-3 md:hidden"
+          >
+            {links}
+          </nav>
+        ) : null}
       </div>
     </header>
   );
