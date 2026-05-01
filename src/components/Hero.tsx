@@ -11,7 +11,7 @@ const fade = {
 };
 
 /** Timelapse-style city footage (fallback poster if video fails to load). */
-const HERO_POSTER = "/images/hero/hero-timelapse-poster.jpg";
+const HERO_POSTER = "/images/hero/hero-timelapse-poster.webp";
 const HERO_VIDEO_MP4 = "/videos/giron-schwartz-hero-timelapse.mp4";
 
 export function Hero() {

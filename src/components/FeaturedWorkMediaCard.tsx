@@ -18,7 +18,7 @@ export type FeaturedWorkEntry =
       title: string;
       href: string;
       linkLabel: string;
-      /** Public path only, e.g. `/photos/featured/card.png` — decorative tile background */
+      /** Public path only, e.g. `/photos/featured/card.webp` — decorative tile background */
       backgroundImage?: string;
     }
   | { type: "pending"; title: string };
