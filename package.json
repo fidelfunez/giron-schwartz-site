@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "optimize:map": "npx --yes svgo public/maps/Map_of_Central_America_new_Svg.svg -o public/maps/Map_of_Central_America_new_Svg.svg"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",

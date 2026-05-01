@@ -23,10 +23,11 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
     title: t("title"),
     description: t("description"),
     keywords: t("keywords"),
-    metadataBase: new URL("https://gironandschwartz.com"),
+    metadataBase: new URL("https://gironschwartz.com"),
     alternates: {
-      canonical: "/es",
+      canonical: `/${locale}`,
       languages: {
+        "x-default": "/es",
         es: "/es",
         en: "/en",
       },
@@ -36,6 +37,28 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
       description: t("description"),
       locale: locale === "es" ? "es_GT" : "en_US",
       type: "website",
+      images: [
+        {
+          url: "/images/favicon/giron_schwartz_favicon_og.png",
+          width: 1200,
+          height: 630,
+          alt: "Girón & Schwartz",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
+      images: ["/images/favicon/giron_schwartz_favicon_og.png"],
+    },
+    icons: {
+      icon: [
+        { url: "/images/favicon/favicon.ico" },
+        { url: "/images/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+        { url: "/images/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      ],
+      apple: [{ url: "/images/favicon/apple-touch-icon.png", sizes: "180x180" }],
     },
   };
 }
@@ -47,7 +70,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   }
 
   setRequestLocale(locale);
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
 
   return (
     <html
@@ -55,7 +78,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       className={`${quincy.variable} ${nexa.variable} ${sourceSans.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-black text-white">
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
       </body>

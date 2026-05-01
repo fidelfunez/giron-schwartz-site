@@ -1,20 +1,26 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { usePathname, useRouter } from "@/i18n/navigation";
 
 export function LanguageToggle() {
+  const router = useRouter();
+  const pathname = usePathname();
   const locale = useLocale();
   const next = locale === "es" ? "en" : "es";
   const label = locale === "es" ? "EN" : "ES";
 
+  const onClick = () => {
+    router.replace(pathname, { locale: next });
+  };
+
   return (
-    <Link
-      href="/"
-      locale={next}
-      className="font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-widest text-[#E9CB97] transition hover:text-white"
+    <button
+      type="button"
+      onClick={onClick}
+      className="cursor-pointer font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-widest text-[#E9CB97] transition hover:text-white"
     >
       {label}
-    </Link>
+    </button>
   );
 }

@@ -1,7 +1,7 @@
 import { getLocale, getTranslations } from "next-intl/server";
+import Link from "next/link";
 
 import { LogoLockup } from "@/components/LogoLockup";
-import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 
 export default async function NotFound() {
@@ -10,7 +10,7 @@ export default async function NotFound() {
     const l = await getLocale();
     if (l === "en" || l === "es") locale = l;
   } catch {
-    // e.g. edge render without full request context
+    // e.g. unmatched URL without locale context
   }
   const t = await getTranslations({ locale, namespace: "NotFound" });
 
@@ -27,7 +27,7 @@ export default async function NotFound() {
           {t("body")}
         </p>
         <Link
-          href="/"
+          href={`/${locale}`}
           className="mt-10 inline-flex rounded-sm border border-[#E9CB97]/70 px-6 py-3 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.2em] text-[#E9CB97] transition hover:border-[#E9CB97] hover:bg-[#E9CB97]/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#E9CB97]"
         >
           {t("cta")}

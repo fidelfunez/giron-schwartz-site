@@ -2,12 +2,13 @@ import { setRequestLocale } from "next-intl/server";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { AboutSection } from "@/components/sections/AboutSection";
-import { ServicesGrid } from "@/components/sections/ServicesGrid";
+import { ServicesColumns } from "@/components/sections/ServicesColumns";
 import { WhySection } from "@/components/sections/WhySection";
-import { TerritoriesSection } from "@/components/sections/TerritoriesSection";
-import { ClientsSection } from "@/components/sections/ClientsSection";
+import { RegionCtaSection } from "@/components/sections/RegionCtaSection";
+import { FeaturedWorkSection } from "@/components/sections/FeaturedWorkSection";
 import { QuoteSection } from "@/components/sections/QuoteSection";
 import { Footer } from "@/components/Footer";
+import { BackToTopButton } from "@/components/BackToTopButton";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -22,14 +23,15 @@ export default async function HomePage({ params }: Props) {
       <Navbar />
       <main>
         <Hero />
-        <AboutSection />
-        <ServicesGrid />
+        <AboutSection locale={locale} />
+        <ServicesColumns />
         <WhySection />
-        <TerritoriesSection />
-        <ClientsSection />
-        <QuoteSection />
+        <RegionCtaSection locale={locale} />
+        <FeaturedWorkSection locale={locale} />
+        <QuoteSection locale={locale} />
       </main>
-      <Footer />
+      <Footer locale={locale} />
+      <BackToTopButton />
     </>
   );
 }

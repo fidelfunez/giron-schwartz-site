@@ -28,6 +28,19 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Subtle keyboard focus — complements Tailwind `focus-visible:*` on components */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-golden);
+  outline-offset: 2px;
+}
+
 body {
   background: var(--color-black);
   color: var(--color-white);

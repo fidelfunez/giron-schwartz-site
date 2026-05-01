@@ -1,8 +1,12 @@
 import { getTranslations } from "next-intl/server";
 import { QuoteForm } from "@/components/QuoteForm";
 
-export async function QuoteSection() {
-  const t = await getTranslations("Quote");
+type Props = {
+  locale: string;
+};
+
+export async function QuoteSection({ locale }: Props) {
+  const t = await getTranslations({ locale, namespace: "Quote" });
 
   const wa = (n: string) =>
     `https://wa.me/${n.replace(/\D/g, "")}?text=${encodeURIComponent("Hola Girón & Schwartz, me gustaría una cotización.")}`;

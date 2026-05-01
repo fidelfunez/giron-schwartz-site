@@ -56,10 +56,10 @@ export function QuoteForm() {
       </label>
       <label>
         <span className="mb-1 block font-[family-name:var(--font-nexa)] text-[0.65rem] uppercase tracking-widest text-white/60">
-          {t("territories")}
+          {t("filmingLocation")}
         </span>
         <input
-          name="territories"
+          name="filmingLocation"
           className="w-full border border-white/15 bg-black/40 px-4 py-3 font-[family-name:var(--font-sans)] text-sm text-white outline-none focus:border-[#E9CB97]"
         />
       </label>
