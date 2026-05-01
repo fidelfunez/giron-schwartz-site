@@ -37,12 +37,19 @@ export async function RegionCtaSection({ locale }: Props) {
           {/* Map — right column, scaled up with soft fades into section bg (client reference) */}
           <figure className="relative z-10 mt-10 min-h-[240px] w-full min-w-0 md:mt-0 md:min-h-[min(420px,48vw)] md:pl-3 lg:min-h-[440px] lg:pl-5">
             <div className="absolute inset-0 overflow-hidden bg-[#141210]">
+              <img
+                src="/maps/Map_of_Central_America_new_Svg.svg"
+                alt={t("mapTitle")}
+                loading="lazy"
+                decoding="async"
+                className="absolute left-1/2 top-1/2 h-[118%] min-h-full w-[118%] min-w-full -translate-x-1/2 -translate-y-1/2 object-cover object-[40%_48%] md:hidden"
+              />
               <object
                 type="image/svg+xml"
                 data="/maps/Map_of_Central_America_new_Svg.svg"
                 title={t("mapTitle")}
                 aria-labelledby="region-map-caption"
-                className="absolute left-1/2 top-1/2 h-[118%] min-h-full w-[118%] min-w-full -translate-x-1/2 -translate-y-1/2 object-cover object-[40%_48%] md:h-[125%] md:w-[125%] md:object-[44%_46%] lg:object-[45%_45%]"
+                className="absolute left-1/2 top-1/2 hidden h-[118%] min-h-full w-[118%] min-w-full -translate-x-1/2 -translate-y-1/2 object-cover object-[40%_48%] md:block md:h-[125%] md:w-[125%] md:object-[44%_46%] lg:object-[45%_45%]"
               />
               {/* Fade at seam — keep narrow so southern Mexico (northwest of map) is not painted out */}
               <div

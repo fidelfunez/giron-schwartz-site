@@ -13,6 +13,7 @@ const fade = {
 /** Timelapse-style city footage (fallback poster if video fails to load). */
 const HERO_POSTER = "/images/hero/hero-timelapse-poster.webp";
 const HERO_VIDEO_MP4 = "/videos/giron-schwartz-hero-timelapse.mp4";
+const HERO_VIDEO_MOBILE_MP4 = "/videos/giron-schwartz-hero-timelapse-mobile.mp4";
 
 export function Hero() {
   const t = useTranslations("Hero");
@@ -21,9 +22,6 @@ export function Hero() {
 
   useEffect(() => {
     if (reduceMotion) return;
-
-    const media = window.matchMedia("(min-width: 768px)");
-    if (!media.matches) return;
 
     const idle = window.setTimeout(() => setShouldLoadVideo(true), 900);
     return () => window.clearTimeout(idle);
@@ -46,15 +44,16 @@ export function Hero() {
       />
       {shouldLoadVideo ? (
         <video
-          className="absolute inset-0 hidden h-full w-full object-cover grayscale contrast-125 md:block"
+          className="absolute inset-0 h-full w-full object-cover grayscale contrast-125"
           autoPlay
           muted
           loop
           playsInline
-          preload="metadata"
+          preload="none"
           poster={HERO_POSTER}
           aria-hidden
         >
+          <source media="(max-width: 767px)" src={HERO_VIDEO_MOBILE_MP4} type="video/mp4" />
           <source src={HERO_VIDEO_MP4} type="video/mp4" />
         </video>
       ) : null}

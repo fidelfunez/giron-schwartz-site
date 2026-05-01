@@ -19,15 +19,16 @@ export function generateStaticParams() {
 export async function generateMetadata(props: Props): Promise<Metadata> {
   const { locale } = await props.params;
   const t = await getTranslations({ locale, namespace: "Metadata" });
+  const canonicalPath = locale === "en" ? "/en" : "/es";
   return {
     title: t("title"),
     description: t("description"),
     keywords: t("keywords"),
-    metadataBase: new URL("https://gironschwartz.com"),
+    metadataBase: new URL("https://www.gironschwartz.com"),
     alternates: {
-      canonical: `/${locale}`,
+      canonical: canonicalPath,
       languages: {
-        "x-default": "/es",
+        "x-default": "/",
         es: "/es",
         en: "/en",
       },

@@ -122,16 +122,16 @@ export async function Footer({ locale }: Props) {
           </div>
         </div>
       </div>
-      <p className="mx-auto mt-10 max-w-6xl border-t border-white/10 pt-8 text-center font-[family-name:var(--font-sans)] text-xs text-white/40">
+      <p className="mx-auto mt-10 max-w-6xl border-t border-white/10 pt-8 text-center font-[family-name:var(--font-sans)] text-xs text-white/65">
         © {year} Girón & Schwartz. {t("rights")}
       </p>
-      <p className="mx-auto mt-2 max-w-6xl text-center font-[family-name:var(--font-sans)] text-[0.72rem] text-white/30">
+      <p className="mx-auto mt-2 max-w-6xl text-center font-[family-name:var(--font-sans)] text-[0.72rem] text-white/65">
         {t("creditLead")}{" "}
         <a
           href="https://www.teralatam.co"
           target="_blank"
           rel="noreferrer"
-          className="text-white/45 transition hover:text-[#E9CB97]"
+          className="text-[#E9CB97] underline underline-offset-2 transition hover:text-[#f0ddb3]"
         >
           {t("creditLink")}
         </a>

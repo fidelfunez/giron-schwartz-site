@@ -85,7 +85,7 @@ export function QuoteForm() {
         />
       </label>
       {!FORMSPREE && (
-        <p className="md:col-span-2 text-xs text-amber-200/90">
+        <p className="md:col-span-2 text-xs text-amber-100">
           Set{" "}
           <code className="rounded bg-white/10 px-1">NEXT_PUBLIC_FORMSPREE_FORM_ID</code>{" "}
           for live submissions.
@@ -98,7 +98,7 @@ export function QuoteForm() {
         >
           {t("submit")}
         </button>
-        <p className="mt-3 text-xs text-white/45">{t("disclaimer")}</p>
+        <p className="mt-3 text-xs text-white/70">{t("disclaimer")}</p>
       </div>
     </form>
   );
