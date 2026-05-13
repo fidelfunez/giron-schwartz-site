@@ -6,6 +6,7 @@ type Props = {
 
 export async function RegionCtaSection({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: "RegionCta" });
+  const sub = t("sub").trim();
 
   return (
     <section
@@ -23,9 +24,11 @@ export async function RegionCtaSection({ locale }: Props) {
             <p className="mt-4 font-[family-name:var(--font-sans)] text-base leading-relaxed text-white/82 md:mt-5">
               {t("follow")}
             </p>
-            <p className="mt-3 font-[family-name:var(--font-sans)] text-sm leading-relaxed text-white/62 md:mt-4">
-              {t("sub")}
-            </p>
+            {sub ? (
+              <p className="mt-3 font-[family-name:var(--font-sans)] text-sm leading-relaxed text-white/62 md:mt-4">
+                {sub}
+              </p>
+            ) : null}
             <a
               href="#contact"
               className="mt-8 inline-block rounded-sm bg-[#E9CB97] px-8 py-3 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.2em] text-black transition hover:bg-[#f0ddb3] md:mt-10"

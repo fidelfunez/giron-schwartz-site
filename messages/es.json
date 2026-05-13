@@ -13,19 +13,19 @@
     "langShort": "EN"
   },
   "Hero": {
-    "headline": "Su socio de producción en terreno en Centroamérica.",
-    "sub": "De fixers y scouting a permisos, crew, logística y ejecución en campo, acompañamos producciones internacionales en Guatemala, Honduras, El Salvador y sur de México.",
+    "headline": "Tu aliado de producción en Centroamérica.",
+    "sub": "Acompañamos producciones internacionales en Guatemala, Honduras, El Salvador y el sur de México con servicios de fixer, scouting, permisos, crew y apoyo integral para rodajes en locación.",
     "ctaPrimary": "Solicitar cotización",
     "ctaSecondary": "Explorar servicios",
     "imageAlt": "Timelapse urbano y energía de producción"
   },
   "About": {
-    "section": "quiénes somos.",
-    "body": "Girón & Schwartz es una productora cercana al terreno, construida con años de experiencia en Guatemala y la región. Trabajamos con colaboración directa, comunicación clara y una comprensión real de cómo se mueven las producciones en condiciones locales. Nos involucramos en cada etapa para que trabajen con un equipo que entiende tanto las exigencias creativas como las realidades operativas del proyecto.",
+    "section": "CONÓCENOS",
+    "body": "Girón & Schwartz nace de la unión de dos profesionales con experiencia en distintos formatos de producción audiovisual: documental, publicidad, televisión, branded content y proyectos institucionales. Trabajamos de cerca con creadores, productoras y clientes para entender lo que cada proyecto necesita y acompañarlo con criterio, claridad y soluciones prácticas.",
     "manuelaRole": "Co-fundadora",
-    "manuelaBio": "Manuela Girón es una de las profesionales de producción más experimentadas de Guatemala, con trayectoria en publicidad, documental y no-ficción. Ha sido fixer, productora de campo y asistente de dirección; se le confían producciones complejas por su criterio y experiencia local.",
+    "manuelaBio": "Mi experiencia en producción audiovisual se ha formado a lo largo de muchos años de trabajo en latinoamérica, acompañando y diseñando proyectos para distintos formatos. He trabajado como fixer, productora de campo, directora de arte y asistente de dirección en proyectos nacionales e internacionales. Mi fuerte está en acompañar y coordinar producciones complejas en locación: organizar equipos, resolver imprevistos, gestionar locaciones y aportar el conocimiento local que cada proyecto necesita para avanzar con claridad y confianza.",
     "luisRole": "Co-fundador",
-    "luisBio": "Luis es productor audiovisual con experiencia en producciones nacionales e internacionales y formación en administración pública, gestión cultural e investigación histórica. Su lectura de instituciones y territorio aporta mucho cuando el proyecto exige coordinación y contexto.",
+    "luisBio": "Mi trabajo cruza la producción audiovisual con la investigación histórica, la gestión cultural y la administración pública. Esa combinación me permite acercarme a cada proyecto desde la coordinación, el contexto y el acceso: entender qué necesita una producción, con quién hay que hablar, cómo se mueve una institución y qué lectura local puede aportar valor al rodaje. Acompaño proyectos que requieren planificación, criterio y una comprensión clara del lugar donde se ejecuta cada producción.",
     "selectedHeading": "Clientes destacados",
     "testimonialsHeading": "Lo que dicen quienes han rodado con nosotros",
     "testimonial1Quote": "Confiables, con criterio y con una red excepcional en terreno.",
@@ -38,39 +38,39 @@
   "Services": {
     "columns": {
       "title": "servicios.",
-      "intro": "Cubrimos el proceso completo de producción: desde la planificación y permisos de preproducción hasta crew, logística y apoyo operativo en el corredor centroamericano.",
+      "intro": "Brindamos asesoría y acompañamiento audiovisual para que cada producción pueda planificarse, coordinarse y realizarse con criterio local, calidad y claridad operativa y el equipo adecuado.",
       "preproduction": {
-        "title": "Pre-producción",
-        "body": "Permisos, casting, visas, investigación y la planificación necesaria antes de que arranque el rodaje."
+        "title": "Desarrollo y Preproducción",
+        "body": "Permisos, casting, visas, investigación y planificación."
       },
       "production": {
-        "title": "Apoyo en producción",
-        "body": "Fixers, productores, crew, equipo y coordinación día a día en set."
+        "title": "Producción en locación.",
+        "body": "Contrataciones, renta de equipo y coordinación diaria."
       },
       "logistics": {
-        "title": "Logística y accesos",
-        "body": "Permisos de locación, transporte, hospedaje, catering, seguridad y apoyo en aduanas."
+        "title": "Accesos y permisos",
+        "body": "Permisos de locación, transporte, hospedaje, catering, seguridad, aduanas y acceso local."
       }
     }
   },
   "Why": {
     "title": "por qué Girón & Schwartz.",
-    "subtitle": "Un enfoque de producción basado en experiencia y confianza.",
+    "subtitle": "Asesoría audiovisual personalizada y con experiencia real de producción.",
     "items": {
       "direct": {
         "title": "Involucramiento directo",
-        "body": "Nuestro enfoque boutique nos permite estar personalmente en el proceso, en lugar de delegar tu proyecto."
+        "body": "Trabajamos personalmente en cada proyecto. Al ser un equipo pequeño, mantenemos comunicación directa y nos involucramos en las decisiones importantes de principio a fin."
       },
       "transparent": {
-        "title": "Comunicación transparente",
-        "body": "Nuestra experiencia nos permite orientarte con claridad para que entiendas tus opciones y tomes decisiones sólidas en cada etapa."
+        "title": "Comunicación clara",
+        "body": "Nuestros clientes pueden contar con información precisa, respuestas rápidas y seguimiento constante."
       }
     }
   },
   "RegionCta": {
-    "lead": "¿Planeas un rodaje en Guatemala, Honduras, El\u00a0Salvador o sur de México?",
-    "follow": "Hablemos de lo que tu producción necesita.",
-    "sub": "Cuéntanos dónde filmamos: alineamos logística, permisos y apoyo a tu calendario.",
+    "lead": "¿Estás planificando un rodaje en Guatemala, Honduras, El Salvador o el sur de México?",
+    "follow": "Cuéntanos qué quieres grabar. Nosotros te ayudamos a encontrar la mejor forma de hacerlo posible.",
+    "sub": "",
     "mapTitle": "Centroamérica — Guatemala, Honduras, El Salvador, sur de México",
     "cta": "Solicitar cotización"
   },
@@ -118,8 +118,8 @@
     ]
   },
   "Quote": {
-    "title": "¿Buscas el apoyo adecuado para tu próximo rodaje?",
-    "sub": "Cuéntanos qué necesitas y te respondemos en menos de 24 horas.",
+    "title": "¿Listo para planificar tu rodaje?",
+    "sub": "Hablemos de tu próximo rodaje. Comparte las primeras coordenadas de tu proyecto y empecemos a aterrizar permisos, locaciones, logística y equipo local.",
     "whatsapp": "WhatsApp",
     "form": {
       "name": "Nombre completo",

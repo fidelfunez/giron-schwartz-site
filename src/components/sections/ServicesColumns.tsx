@@ -46,7 +46,7 @@ export function ServicesColumns() {
       id="services"
       className="scroll-mt-24 bg-black px-4 py-24 md:px-6 md:py-32"
     >
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-6xl md:max-w-7xl lg:max-w-[85rem]">
         <h2 className="text-center font-[family-name:var(--font-quincy)] text-3xl font-normal lowercase text-white md:text-4xl">
           {t("title")}
         </h2>
