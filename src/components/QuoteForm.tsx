@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
 
 const FORMSPREE =
@@ -9,23 +10,53 @@ const FORMSPREE =
 
 export function QuoteForm() {
   const t = useTranslations("Quote.form");
+  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const action = FORMSPREE ? `https://formspree.io/f/${FORMSPREE}` : undefined;
 
-  return (
-    <form
-      action={action}
-      method={action ? "POST" : undefined}
-      onSubmit={
-        action
-          ? undefined
-          : (e) => {
-              e.preventDefault();
-              const data = new FormData(e.currentTarget);
-              console.log("[quote]", Object.fromEntries(data.entries()));
-            }
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const form = e.currentTarget;
+
+    if (!action) {
+      const data = new FormData(form);
+      console.log("[quote]", Object.fromEntries(data.entries()));
+      return;
+    }
+
+    setStatus("submitting");
+
+    try {
+      const response = await fetch(action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+
+      if (response.ok) {
+        form.reset();
+        setStatus("success");
+        return;
       }
-      className="mt-10 grid gap-4 md:grid-cols-2"
-    >
+
+      setStatus("error");
+    } catch {
+      setStatus("error");
+    }
+  }
+
+  if (status === "success") {
+    return (
+      <div className="mt-10 rounded-sm border border-[#E9CB97]/40 bg-[#E9CB97]/10 px-6 py-8">
+        <p className="font-[family-name:var(--font-quincy)] text-2xl text-white">{t("successTitle")}</p>
+        <p className="mt-3 font-[family-name:var(--font-sans)] text-base leading-relaxed text-white/80">
+          {t("successBody")}
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <form onSubmit={handleSubmit} className="mt-10 grid gap-4 md:grid-cols-2">
       <label className="md:col-span-2">
         <span className="mb-1 block font-[family-name:var(--font-nexa)] text-[0.65rem] uppercase tracking-widest text-white/60">
           {t("name")}
@@ -92,11 +123,15 @@ export function QuoteForm() {
         </p>
       )}
       <div className="md:col-span-2">
+        {status === "error" ? (
+          <p className="mb-4 font-[family-name:var(--font-sans)] text-sm text-red-300">{t("error")}</p>
+        ) : null}
         <button
           type="submit"
-          className="rounded-sm bg-[#E9CB97] px-8 py-3 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.2em] text-black transition hover:bg-[#f0ddb3]"
+          disabled={status === "submitting"}
+          className="rounded-sm bg-[#E9CB97] px-8 py-3 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.2em] text-black transition hover:bg-[#f0ddb3] disabled:cursor-not-allowed disabled:opacity-60"
         >
-          {t("submit")}
+          {status === "submitting" ? t("submitting") : t("submit")}
         </button>
         <p className="mt-3 text-xs text-white/70">{t("disclaimer")}</p>
       </div>

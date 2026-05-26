@@ -129,6 +129,10 @@
       "date": "Fecha estimada de producción",
       "description": "Descripción del proyecto",
       "submit": "Enviar solicitud",
+      "submitting": "Enviando…",
+      "successTitle": "¡Gracias!",
+      "successBody": "Recibimos tu solicitud. Te contactaremos pronto.",
+      "error": "No pudimos enviar tu solicitud. Intenta de nuevo o escríbenos por WhatsApp.",
       "disclaimer": "Al enviar aceptas que te contactemos respecto a tu proyecto."
     }
   },
