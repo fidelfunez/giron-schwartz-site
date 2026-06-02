@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 import { quincy, montserrat, sourceSans } from "@/lib/fonts";
+import { siteUrl } from "@/lib/site";
 import { getTranslations } from "next-intl/server";
 
 type Props = {
@@ -24,7 +25,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
     title: t("title"),
     description: t("description"),
     keywords: t("keywords"),
-    metadataBase: new URL("https://www.gironschwartz.com"),
+    metadataBase: new URL(siteUrl),
     alternates: {
       canonical: canonicalPath,
       languages: {
