@@ -25,7 +25,7 @@ export async function QuoteSection({ locale }: Props) {
         </p>
         <QuoteForm />
         <div className="mt-12 flex flex-wrap gap-4 border-t border-white/10 pt-10">
-          <span className="w-full font-[family-name:var(--font-nexa)] text-xs uppercase tracking-widest text-[#A2C3CB]">
+          <span className="w-full font-heading text-xs uppercase tracking-widest text-[#A2C3CB]">
             {t("whatsapp")}
           </span>
           <a

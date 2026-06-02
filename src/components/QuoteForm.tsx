@@ -58,7 +58,7 @@ export function QuoteForm() {
   return (
     <form onSubmit={handleSubmit} className="mt-10 grid gap-4 md:grid-cols-2">
       <label className="md:col-span-2">
-        <span className="mb-1 block font-[family-name:var(--font-nexa)] text-[0.65rem] uppercase tracking-widest text-white/60">
+        <span className="mb-1 block font-heading text-[0.65rem] uppercase tracking-widest text-white/60">
           {t("name")}
         </span>
         <input
@@ -68,7 +68,7 @@ export function QuoteForm() {
         />
       </label>
       <label>
-        <span className="mb-1 block font-[family-name:var(--font-nexa)] text-[0.65rem] uppercase tracking-widest text-white/60">
+        <span className="mb-1 block font-heading text-[0.65rem] uppercase tracking-widest text-white/60">
           {t("company")}
         </span>
         <input
@@ -77,7 +77,7 @@ export function QuoteForm() {
         />
       </label>
       <label>
-        <span className="mb-1 block font-[family-name:var(--font-nexa)] text-[0.65rem] uppercase tracking-widest text-white/60">
+        <span className="mb-1 block font-heading text-[0.65rem] uppercase tracking-widest text-white/60">
           {t("projectType")}
         </span>
         <input
@@ -86,7 +86,7 @@ export function QuoteForm() {
         />
       </label>
       <label>
-        <span className="mb-1 block font-[family-name:var(--font-nexa)] text-[0.65rem] uppercase tracking-widest text-white/60">
+        <span className="mb-1 block font-heading text-[0.65rem] uppercase tracking-widest text-white/60">
           {t("filmingLocation")}
         </span>
         <input
@@ -95,7 +95,7 @@ export function QuoteForm() {
         />
       </label>
       <label>
-        <span className="mb-1 block font-[family-name:var(--font-nexa)] text-[0.65rem] uppercase tracking-widest text-white/60">
+        <span className="mb-1 block font-heading text-[0.65rem] uppercase tracking-widest text-white/60">
           {t("date")}
         </span>
         <input
@@ -105,7 +105,7 @@ export function QuoteForm() {
         />
       </label>
       <label className="md:col-span-2">
-        <span className="mb-1 block font-[family-name:var(--font-nexa)] text-[0.65rem] uppercase tracking-widest text-white/60">
+        <span className="mb-1 block font-heading text-[0.65rem] uppercase tracking-widest text-white/60">
           {t("description")}
         </span>
         <textarea
@@ -129,7 +129,7 @@ export function QuoteForm() {
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="rounded-sm bg-[#E9CB97] px-8 py-3 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.2em] text-black transition hover:bg-[#f0ddb3] disabled:cursor-not-allowed disabled:opacity-60"
+          className="rounded-sm bg-[#E9CB97] px-8 py-3 font-heading text-xs font-bold uppercase tracking-[0.2em] text-black transition hover:bg-[#f0ddb3] disabled:cursor-not-allowed disabled:opacity-60"
         >
           {status === "submitting" ? t("submitting") : t("submit")}
         </button>

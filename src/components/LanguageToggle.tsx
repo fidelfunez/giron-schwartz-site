@@ -18,7 +18,7 @@ export function LanguageToggle() {
     <button
       type="button"
       onClick={onClick}
-      className="cursor-pointer font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-widest text-[#E9CB97] transition hover:text-white"
+      className="cursor-pointer font-heading text-xs font-bold uppercase tracking-widest text-[#E9CB97] transition hover:text-white"
     >
       {label}
     </button>

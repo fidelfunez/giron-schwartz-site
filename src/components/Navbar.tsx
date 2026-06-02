@@ -28,7 +28,7 @@ export function Navbar() {
   }, [mobileOpen]);
 
   const link =
-    "font-[family-name:var(--font-nexa)] text-xs uppercase tracking-[0.2em] text-white/90 transition hover:text-[#E9CB97]";
+    "font-heading text-xs uppercase tracking-[0.2em] text-white/90 transition hover:text-[#E9CB97]";
 
   const links = (
     <>
@@ -64,7 +64,7 @@ export function Navbar() {
             <LanguageToggle />
             <a
               href="#contact"
-              className="rounded-sm bg-[#E9CB97] px-4 py-2 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-widest text-black transition hover:bg-[#f0ddb3]"
+              className="rounded-sm bg-[#E9CB97] px-4 py-2 font-heading text-xs font-bold uppercase tracking-widest text-black transition hover:bg-[#f0ddb3]"
             >
               {t("cta")}
             </a>
@@ -73,7 +73,7 @@ export function Navbar() {
             <LanguageToggle />
             <a
               href="#contact"
-              className="rounded-sm bg-[#E9CB97] px-3 py-2 font-[family-name:var(--font-nexa)] text-[0.65rem] font-bold uppercase tracking-wider text-black"
+              className="rounded-sm bg-[#E9CB97] px-3 py-2 font-heading text-[0.65rem] font-bold uppercase tracking-wider text-black"
             >
               {t("cta")}
             </a>

@@ -33,7 +33,7 @@ export async function AboutSection({ locale }: Props) {
               className="h-72 w-full object-cover"
               style={{ objectPosition: "center calc(18% + 9px)" }}
             />
-            <p className="mt-5 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-widest text-[#E9CB97]">
+            <p className="mt-5 font-heading text-xs font-bold uppercase tracking-widest text-[#E9CB97]">
               Manuela Girón
             </p>
             <p className="mt-1 text-sm text-white/60">{t("manuelaRole")}</p>
@@ -50,7 +50,7 @@ export async function AboutSection({ locale }: Props) {
               className="h-72 w-full object-cover"
               style={{ objectPosition: "center calc(18% - 14px)" }}
             />
-            <p className="mt-5 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-widest text-[#E9CB97]">
+            <p className="mt-5 font-heading text-xs font-bold uppercase tracking-widest text-[#E9CB97]">
               Luis Andrés Schwartz
             </p>
             <p className="mt-1 text-sm text-white/60">{t("luisRole")}</p>
@@ -61,7 +61,7 @@ export async function AboutSection({ locale }: Props) {
         </div>
 
         <div className="mt-16 border-t border-white/10 pt-12">
-          <h3 className="text-center font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.2em] text-[#A2C3CB]">
+          <h3 className="text-center font-heading text-xs font-bold uppercase tracking-[0.2em] text-[#A2C3CB]">
             {t("selectedHeading")}
           </h3>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-x-4 gap-y-3 md:gap-x-5">
@@ -88,7 +88,7 @@ export async function AboutSection({ locale }: Props) {
         </div>
 
         <div className="mt-16 border-t border-white/10 pt-12">
-          <h3 className="font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.2em] text-[#A2C3CB]">
+          <h3 className="font-heading text-xs font-bold uppercase tracking-[0.2em] text-[#A2C3CB]">
             {t("testimonialsHeading")}
           </h3>
           <div className="mt-8 grid gap-8 md:grid-cols-3">
@@ -103,7 +103,7 @@ export async function AboutSection({ locale }: Props) {
                 key={quoteKey}
                 className="border border-white/10 bg-black/15 p-5"
               >
-                <p className="mb-2 font-[family-name:var(--font-nexa)] text-4xl font-black leading-none text-[#E9CB97] md:text-5xl">
+                <p className="mb-2 font-heading text-4xl font-black leading-none text-[#E9CB97] md:text-5xl">
                   “
                 </p>
                 <p className="font-[family-name:var(--font-sans)] text-[1.1rem] font-bold leading-snug text-white/90">

@@ -87,13 +87,13 @@ export function Hero() {
         >
           <a
             href="#contact"
-            className="rounded-sm bg-[#E9CB97] px-6 py-3 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.2em] text-black transition hover:bg-[#f0ddb3]"
+            className="rounded-sm bg-[#E9CB97] px-6 py-3 font-heading text-xs font-bold uppercase tracking-[0.2em] text-black transition hover:bg-[#f0ddb3]"
           >
             {t("ctaPrimary")}
           </a>
           <a
             href="#services"
-            className="rounded-sm border border-white/80 px-6 py-3 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.2em] text-white transition hover:border-[#E9CB97] hover:text-[#E9CB97]"
+            className="rounded-sm border border-white/80 px-6 py-3 font-heading text-xs font-bold uppercase tracking-[0.2em] text-white transition hover:border-[#E9CB97] hover:text-[#E9CB97]"
           >
             {t("ctaSecondary")}
           </a>

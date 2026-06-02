@@ -66,13 +66,13 @@ export async function Footer({ locale }: Props) {
             </p>
             <a
               href="#contact"
-              className="mt-6 inline-flex items-center rounded-sm border border-[#E9CB97]/60 px-4 py-2 font-[family-name:var(--font-nexa)] text-[0.65rem] font-bold uppercase tracking-[0.16em] text-[#E9CB97] transition hover:border-[#E9CB97] hover:bg-[#E9CB97]/10"
+              className="mt-6 inline-flex items-center rounded-sm border border-[#E9CB97]/60 px-4 py-2 font-heading text-[0.65rem] font-bold uppercase tracking-[0.16em] text-[#E9CB97] transition hover:border-[#E9CB97] hover:bg-[#E9CB97]/10"
             >
               {nav("cta")}
             </a>
           </div>
 
-          <nav className="flex flex-col gap-3 font-[family-name:var(--font-nexa)] text-xs uppercase tracking-[0.16em] text-white/70">
+          <nav className="flex flex-col gap-3 font-heading text-xs uppercase tracking-[0.16em] text-white/70">
             <span className="mb-1 text-[#A2C3CB]">{t("navHeading")}</span>
             <a className="transition hover:text-[#E9CB97]" href="#about">
               {nav("about")}
@@ -89,7 +89,7 @@ export async function Footer({ locale }: Props) {
           </nav>
 
           <div className="font-[family-name:var(--font-sans)] text-sm text-white/70">
-            <span className="font-[family-name:var(--font-nexa)] text-xs uppercase tracking-[0.16em] text-[#A2C3CB]">
+            <span className="font-heading text-xs uppercase tracking-[0.16em] text-[#A2C3CB]">
               {t("contactHeading")}
             </span>
             <p className="mt-4">
@@ -111,7 +111,7 @@ export async function Footer({ locale }: Props) {
                     href={s.href}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex w-[15.2rem] items-center justify-center gap-2 rounded-full border border-white/15 bg-white/[0.03] px-3 py-1.5 font-[family-name:var(--font-nexa)] text-[0.62rem] uppercase tracking-[0.14em] text-[#A2C3CB] transition hover:border-[#E9CB97]/60 hover:text-[#E9CB97]"
+                    className="inline-flex w-[15.2rem] items-center justify-center gap-2 rounded-full border border-white/15 bg-white/[0.03] px-3 py-1.5 font-heading text-[0.62rem] uppercase tracking-[0.14em] text-[#A2C3CB] transition hover:border-[#E9CB97]/60 hover:text-[#E9CB97]"
                   >
                     <SocialIcon network={s.key} />
                     {social(s.key)}

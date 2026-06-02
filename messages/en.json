@@ -117,6 +117,31 @@
       }
     ]
   },
+  "Reviews": {
+    "title": "in their words.",
+    "subtitle": "Longer reflections from producers and directors who have filmed with us across Guatemala and the region.",
+    "prev": "Previous review",
+    "next": "Next review",
+    "slideOf": "Review {current} of {total}",
+    "items": [
+      {
+        "quote": "I had the pleasure of working with Giron and Schwartz in 2022. The dynamic duo were my fixers on location for the award-winning Nat Geo series, \"World Eats Bread\". We covered a lot of ground in Guatemala City and Antigua, and Giron and Schwartz made everything easy for our crew, even when our plans pivoted at the last minute. Our team never had to worry about transportation, meals, and hotels, and they made sure all our locations were ready and waiting for us when it was time to film. We were also shooting during Semana Santa, a very busy time in Guatemala, and Giron and Schwartz made sure we were able to navigate throughout Guatemala with ease. I am thankful I got the opportunity to work with them, and I am privileged to call them friends.",
+        "credit": "— Jenna Reynolds, Producer · USA"
+      },
+      {
+        "quote": "I have worked with G&S on several occasions, throughout that beautiful country, and they were always committed, resourceful and super proactive. You can really tell how much they know their land and their people, and that makes all the difference when you are producing and need to truly trust the local team.\n\nThank you for showing us incredible locations, for always resolving everything so quickly and with such good vibes, and for accompanying us through every challenge of the shoot. Besides being excellent professionals, they are incredible people. It was truly spectacular working with you.",
+        "credit": "— Mercedes Tedeschi, Producer · Argentina"
+      },
+      {
+        "quote": "Working with Manuela and Luis on Long Way Up was a privilege. Their exceptional logistics skills, local expertise, and unwavering enthusiasm were instrumental to our success. They handled constantly changing, complex demands with professionalism, warmth, and remarkable adaptability. Simply put, they are among the very best local producers I have worked with anywhere in the world.",
+        "credit": "— David Alexanian"
+      },
+      {
+        "quote": "With G&S we did not have to explain things twice. We arrived in Guatemala with a demanding reality format, high pace and little room for error. Manuela and Luis understood from the beginning what we needed, and when something got complicated, which always happens, they showed up with solutions before we finished raising the problem. There are things we shot that honestly we did not believe were possible at first, and they are in the final cut thanks to them. I would do it again without hesitation.",
+        "credit": "— Jose Carrizo"
+      }
+    ]
+  },
   "Quote": {
     "title": "Looking for the right support for your next shoot?",
     "sub": "Tell us what you need and we’ll get back to you within 24 hours.",

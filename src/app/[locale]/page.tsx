@@ -6,6 +6,7 @@ import { ServicesColumns } from "@/components/sections/ServicesColumns";
 import { WhySection } from "@/components/sections/WhySection";
 import { RegionCtaSection } from "@/components/sections/RegionCtaSection";
 import { FeaturedWorkSection } from "@/components/sections/FeaturedWorkSection";
+import { DetailedReviewsSection } from "@/components/sections/DetailedReviewsSection";
 import { QuoteSection } from "@/components/sections/QuoteSection";
 import { Footer } from "@/components/Footer";
 import { BackToTopButton } from "@/components/BackToTopButton";
@@ -28,6 +29,7 @@ export default async function HomePage({ params }: Props) {
         <WhySection />
         <RegionCtaSection locale={locale} />
         <FeaturedWorkSection locale={locale} />
+        <DetailedReviewsSection locale={locale} />
         <QuoteSection locale={locale} />
       </main>
       <Footer locale={locale} />

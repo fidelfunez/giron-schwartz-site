@@ -4,7 +4,7 @@ import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
-import { quincy, nexa, sourceSans } from "@/lib/fonts";
+import { quincy, montserrat, sourceSans } from "@/lib/fonts";
 import { getTranslations } from "next-intl/server";
 
 type Props = {
@@ -76,7 +76,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html
       lang={locale}
-      className={`${quincy.variable} ${nexa.variable} ${sourceSans.variable} h-full antialiased`}
+      className={`${quincy.variable} ${montserrat.variable} ${sourceSans.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-black text-white">
         <NextIntlClientProvider locale={locale} messages={messages}>

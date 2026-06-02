@@ -31,7 +31,7 @@ export async function RegionCtaSection({ locale }: Props) {
             ) : null}
             <a
               href="#contact"
-              className="mt-8 inline-block rounded-sm bg-[#E9CB97] px-8 py-3 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.2em] text-black transition hover:bg-[#f0ddb3] md:mt-10"
+              className="mt-8 inline-block rounded-sm bg-[#E9CB97] px-8 py-3 font-heading text-xs font-bold uppercase tracking-[0.2em] text-black transition hover:bg-[#f0ddb3] md:mt-10"
             >
               {t("cta")}
             </a>

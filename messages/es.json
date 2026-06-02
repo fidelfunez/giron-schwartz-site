@@ -117,6 +117,31 @@
       }
     ]
   },
+  "Reviews": {
+    "title": "en sus palabras.",
+    "subtitle": "Testimonios más extensos de productoras y productores que han rodado con nosotros en Guatemala y la región.",
+    "prev": "Reseña anterior",
+    "next": "Reseña siguiente",
+    "slideOf": "Reseña {current} de {total}",
+    "items": [
+      {
+        "quote": "Tuve el placer de trabajar con Giron and Schwartz en 2022. El dúo dinámico fueron mis fixers en locación para la serie galardonada de Nat Geo, \"World Eats Bread\". Cubrimos mucho terreno en Ciudad de Guatemala y Antigua, y Giron and Schwartz hicieron que todo fuera fácil para nuestro crew, incluso cuando nuestros planes cambiaron a último momento. Nuestro equipo nunca tuvo que preocuparse por transporte, comidas y hoteles, y se aseguraron de que todas nuestras locaciones estuvieran listas y nos esperaran cuando era momento de filmar. También estábamos rodando durante Semana Santa, un momento muy ocupado en Guatemala, y Giron and Schwartz se aseguraron de que pudiéramos movernos por todo Guatemala con facilidad. Estoy agradecida de haber tenido la oportunidad de trabajar con ellos, y me siento privilegiada de poder llamarlos amigos.",
+        "credit": "— Jenna Reynolds, Productora · USA"
+      },
+      {
+        "quote": "Trabajé con G&S en varias oportunidades, a lo largo y ancho de ese bello país, y siempre fueron comprometidos, resolutivos y súper proactivos. Se nota muchísimo el conocimiento que tienen de sus tierras y de su gente, y eso hace toda la diferencia cuando estás produciendo y necesitás confiar de verdad en el equipo local.\n\nGracias por presentarnos locaciones increíbles, por resolver siempre con tanta rapidez y buena onda, y por acompañarnos en cada desafío del rodaje. Además de excelentes profesionales, son personas increíbles. Fue realmente espectacular trabajar con ustedes.",
+        "credit": "— Mercedes Tedeschi, Productora · Argentina"
+      },
+      {
+        "quote": "Trabajar con Manuela y Luis en Long Way Up fue un privilegio. Sus habilidades logísticas excepcionales, su experiencia local y su entusiasmo inquebrantable fueron fundamentales para nuestro éxito. Manejaron demandas complejas y en constante cambio con profesionalismo, calidez y una adaptabilidad notable. En pocas palabras, están entre los mejores productores locales con los que he trabajado en cualquier parte del mundo.",
+        "credit": "— David Alexanian"
+      },
+      {
+        "quote": "Con G&S no tuvimos que explicar dos veces las cosas. Llegamos a Guatemala con un formato reality exigente, ritmo alto y poco margen para el error. Manuela y Luis entendieron desde el principio qué necesitábamos, y cuando algo se complicaba, que siempre pasa, aparecían con soluciones antes de que nosotros termináramos de plantear el problema. Hay cosas que rodamos que honestamente no creíamos posibles al principio, y están en el corte final gracias a ellos. Repetiría sin dudarlo.",
+        "credit": "— Jose Carrizo"
+      }
+    ]
+  },
   "Quote": {
     "title": "¿Listo para planificar tu rodaje?",
     "sub": "Hablemos de tu próximo rodaje. Comparte las primeras coordenadas de tu proyecto y empecemos a aterrizar permisos, locaciones, logística y equipo local.",

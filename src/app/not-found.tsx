@@ -28,7 +28,7 @@ export default async function NotFound() {
         </p>
         <Link
           href={`/${locale}`}
-          className="mt-10 inline-flex rounded-sm border border-[#E9CB97]/70 px-6 py-3 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.2em] text-[#E9CB97] transition hover:border-[#E9CB97] hover:bg-[#E9CB97]/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#E9CB97]"
+          className="mt-10 inline-flex rounded-sm border border-[#E9CB97]/70 px-6 py-3 font-heading text-xs font-bold uppercase tracking-[0.2em] text-[#E9CB97] transition hover:border-[#E9CB97] hover:bg-[#E9CB97]/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#E9CB97]"
         >
           {t("cta")}
         </Link>

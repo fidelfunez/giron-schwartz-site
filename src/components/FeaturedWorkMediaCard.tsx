@@ -107,7 +107,7 @@ export function FeaturedWorkMediaCard({
     if (entry.type === "pending") {
       return (
         <div className="flex h-full items-center justify-center bg-white/[0.03] px-4 text-center">
-          <p className="font-[family-name:var(--font-nexa)] text-[0.65rem] font-bold uppercase leading-snug tracking-[0.16em] text-white/40">
+          <p className="font-heading text-[0.65rem] font-bold uppercase leading-snug tracking-[0.16em] text-white/40">
             {pendingLabel}
           </p>
         </div>
@@ -150,7 +150,7 @@ export function FeaturedWorkMediaCard({
             />
           )}
           <span className="relative z-10 flex min-h-0 flex-1 flex-col items-center justify-center gap-3 py-8">
-            <span className="font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.18em] text-[#E9CB97] drop-shadow md:text-sm">
+            <span className="font-heading text-xs font-bold uppercase tracking-[0.18em] text-[#E9CB97] drop-shadow md:text-sm">
               {entry.linkLabel}
             </span>
             <span className="sr-only">{newTabHint}</span>
@@ -169,7 +169,7 @@ export function FeaturedWorkMediaCard({
     if (!embedSrc) {
       return (
         <div className="flex h-full items-center justify-center bg-white/[0.03] px-4 text-center">
-          <p className="font-[family-name:var(--font-nexa)] text-[0.65rem] font-bold uppercase leading-snug tracking-[0.16em] text-white/40">
+          <p className="font-heading text-[0.65rem] font-bold uppercase leading-snug tracking-[0.16em] text-white/40">
             {pendingLabel}
           </p>
         </div>
@@ -227,7 +227,7 @@ export function FeaturedWorkMediaCard({
       <div className="relative aspect-video w-full overflow-hidden rounded-sm bg-black ring-1 ring-white/10">
         {mediaBox}
       </div>
-      <figcaption className="mt-3 font-[family-name:var(--font-nexa)] text-xs font-bold uppercase tracking-[0.14em] text-white/85 md:text-sm">
+      <figcaption className="mt-3 font-heading text-xs font-bold uppercase tracking-[0.14em] text-white/85 md:text-sm">
         {entry.title}
       </figcaption>
     </figure>

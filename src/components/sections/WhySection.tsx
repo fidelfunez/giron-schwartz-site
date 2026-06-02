@@ -29,7 +29,7 @@ export function WhySection() {
               viewport={{ once: true, margin: "-20px" }}
               transition={{ duration: 0.5, delay: i * 0.06, ease: [0.22, 1, 0.36, 1] }}
             >
-              <h3 className="font-[family-name:var(--font-nexa)] text-lg font-bold uppercase tracking-wider text-[#E9CB97]">
+              <h3 className="font-heading text-lg font-bold uppercase tracking-wider text-[#E9CB97]">
                 {t(`items.${k}.title`)}
               </h3>
               <p className="mt-4 font-[family-name:var(--font-sans)] text-sm leading-relaxed text-white/75">

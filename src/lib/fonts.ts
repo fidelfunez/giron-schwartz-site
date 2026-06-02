@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import { Source_Sans_3 } from "next/font/google";
+import { Montserrat, Source_Sans_3 } from "next/font/google";
 
 export const quincy = localFont({
   src: [
@@ -23,20 +23,11 @@ export const quincy = localFont({
   display: "swap",
 });
 
-export const nexa = localFont({
-  src: [
-    {
-      path: "../fonts/nexa/NexaLight.otf",
-      weight: "300",
-      style: "normal",
-    },
-    {
-      path: "../fonts/nexa/NexaBold.otf",
-      weight: "700",
-      style: "normal",
-    },
-  ],
-  variable: "--font-nexa",
+/** UI / labels / CTAs — Montserrat (Google Fonts). */
+export const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "600", "700", "800", "900"],
+  variable: "--font-montserrat",
   display: "swap",
 });
 
