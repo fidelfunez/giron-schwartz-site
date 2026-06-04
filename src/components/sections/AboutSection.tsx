@@ -86,36 +86,6 @@ export async function AboutSection({ locale }: Props) {
             ))}
           </div>
         </div>
-
-        <div className="mt-16 border-t border-white/10 pt-12">
-          <h3 className="font-heading text-xs font-bold uppercase tracking-[0.2em] text-[#A2C3CB]">
-            {t("testimonialsHeading")}
-          </h3>
-          <div className="mt-8 grid gap-8 md:grid-cols-3">
-            {(
-              [
-                ["testimonial1Quote", "testimonial1Credit"],
-                ["testimonial2Quote", "testimonial2Credit"],
-                ["testimonial3Quote", "testimonial3Credit"],
-              ] as const
-            ).map(([quoteKey, creditKey]) => (
-              <blockquote
-                key={quoteKey}
-                className="border border-white/10 bg-black/15 p-5"
-              >
-                <p className="mb-2 font-heading text-4xl font-black leading-none text-[#E9CB97] md:text-5xl">
-                  “
-                </p>
-                <p className="font-[family-name:var(--font-sans)] text-[1.1rem] font-bold leading-snug text-white/90">
-                  {t(quoteKey)}
-                </p>
-                <footer className="mt-3 font-[family-name:var(--font-sans)] text-[1.02rem] text-white/65">
-                  {t(creditKey)}
-                </footer>
-              </blockquote>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
