@@ -29,7 +29,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
     alternates: {
       canonical: canonicalPath,
       languages: {
-        "x-default": "/",
+        "x-default": "/es",
         es: "/es",
         en: "/en",
       },

@@ -3,7 +3,7 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
   async redirects() {
-    return [{ source: "/", destination: "/es", permanent: false }];
+    return [{ source: "/", destination: "/es", permanent: true }];
   },
   images: {
     remotePatterns: [
