@@ -58,7 +58,7 @@ export function Hero() {
         </video>
       ) : null}
       <div className="absolute inset-0 bg-black/65" />
-      <div className="relative z-10 mx-auto flex min-h-[100dvh] max-w-6xl flex-col justify-end px-4 pb-24 pt-32 md:px-6 md:pb-32">
+      <div className="relative z-10 mx-auto flex min-h-[100dvh] max-w-6xl flex-col justify-end px-4 pb-24 pt-32 max-md:items-center max-md:justify-center max-md:text-center md:px-6 md:pb-32">
         <motion.h1
           className="max-w-4xl font-[family-name:var(--font-quincy)] text-3xl font-normal leading-tight tracking-tight text-white md:text-5xl lg:text-6xl"
           initial={intro.initial}
@@ -78,7 +78,7 @@ export function Hero() {
           {t("sub")}
         </motion.p>
         <motion.div
-          className="mt-10 flex flex-wrap gap-4"
+          className="mt-10 flex flex-wrap gap-4 max-md:justify-center"
           initial={intro.initial}
           animate={fade.animate}
           transition={
